@@ -88,8 +88,6 @@ public class Main {
         g.imprimirDistancia();
         //g.imprimirMapa();
         Dijkstra d = new Dijkstra(g);
-        d.executar("GRU","VCP");
-        d.imprimir();
 
         //Dijkstra d = new Dijkstra(g);
 
