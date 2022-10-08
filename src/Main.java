@@ -98,6 +98,7 @@ public class Main {
         Scanner sc1 = new Scanner(System.in);
         opt = "N";
         while(opt.equals("N")) {
+            g.imprimirMapa();
             System.out.println("Digite o aeroporto de partida:");
             partida = sc.next();
             System.out.println("Digite o aeroporto de destino:");
